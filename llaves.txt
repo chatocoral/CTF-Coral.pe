@@ -1,0 +1,7 @@
+1: home, la que se regala al inicio.
+2: comentarios en el html del home.
+3: pagina escondida.
+4: visitar 1000 veces la pagina "vueltas"
+5: registrar el texto mostrado en el formulario 500 veces en "formulario"
+6: cambiar la cookie en la pagina admin de role=user a role=admin
+7: imagen escondida en public/img/key.jpg
