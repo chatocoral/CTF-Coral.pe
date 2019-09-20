@@ -3,9 +3,20 @@
 require '../elements/header.php';
 
 ?> 
-
-Pagina escondida, esta en comentario en el navbar, se entrega la 6ta llave, la 7ma llave esta en una imagen en public/img/llave.jpg...
-
- 
+<div class="panel">
+	<div class="panel-heading">
+		<h3>
+			Sorpresa!
+		</h3>
+	</div>
+	<div class="panel-body">
+		<p>
+			Nunca olvides que las rutas de tu página web están al alcanze de todos, incluso si no tiene un botón asociado.
+		</p>
+		<strong>
+			{KEY-06:CuidaTusRutas}
+		</strong>
+	</div>
+</div>
 
 <?php require '../elements/footer.php' ?>

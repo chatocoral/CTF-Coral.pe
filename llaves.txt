@@ -1,7 +1,10 @@
-1: home, la que se regala al inicio.
-2: comentarios en el html del home.
-3: pagina escondida.
-4: visitar 1000 veces la pagina "vueltas"
-5: registrar el texto mostrado en el formulario 500 veces en "formulario"
-6: cambiar la cookie en la pagina admin de role=user a role=admin
+1: home, la que se regala al inicio. LISTO
+2: comentarios en el html del home. LISTO
+3: visitar 1000 veces la pagina "vueltas" LISTO
+4: registrar el texto mostrado en el formulario 500 veces en "formulario"
+5: cambiar la cookie en la pagina admin de role=user a role=admin LISTO
+6: pagina escondida. LISTO
 7: imagen escondida en public/img/key.jpg
+8: el producto con el url /producto/1 
+9: en un html importado pero no usado. LISTO
+10: en un zip con codigo 663322. LISTO

@@ -53,4 +53,29 @@ footer em{
 	padding: 20px 24px;
 	text-decoration: none;
 }
-/**/
+
+.panel{
+	border: solid 2px grey;
+	border-top: solid 30px grey;
+	margin:16px 0px;
+	padding: 20px;
+}
+.panel-heading{
+	padding-bottom: 30px;
+}
+
+p{
+	padding:10px 0px;
+}
+.red-text{
+	color:red;
+}
+.green-text{
+	color:green;
+}
+.tienda ul{
+	margin-left: 20px;
+}
+.tienda ul li{
+	padding: 15px 10px;
+}
