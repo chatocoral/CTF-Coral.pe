@@ -9,4 +9,5 @@
 </head>
 <body>
 	<?php require 'navbar.php' ?>
+	<div class="background"></div>
 	<div class="container" >
