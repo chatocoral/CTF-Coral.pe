@@ -1,8 +1,5 @@
-<?php
-
-require '../elements/header.php';
-
-?> 
+<?php require '../elements/header.php';?>
+ 
 <div class="panel tienda">
 	<div class="panel-heading">
 		<h3>

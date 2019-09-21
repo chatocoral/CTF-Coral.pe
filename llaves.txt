@@ -4,7 +4,7 @@
 4: registrar el texto mostrado en el formulario 500 veces en "formulario"
 5: cambiar la cookie en la pagina admin de role=user a role=admin LISTO
 6: pagina escondida. LISTO
-7: imagen escondida en public/img/key.jpg
-8: el producto con el url /producto/1 
+7: imagen escondida en public/img/key.jpg LISTO
+8: el producto con el url /producto/1 LISTO
 9: en un html importado pero no usado. LISTO
 10: en un zip con codigo 663322. LISTO

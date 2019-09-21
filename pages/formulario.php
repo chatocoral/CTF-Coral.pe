@@ -4,8 +4,33 @@ require '../elements/header.php';
 
 ?> 
 
-Aqui va eso de tener un imput y tienes que copiarlo en otro lado y darle aceptar, unas 1000 veces y se entrega la 4ta llave.
-
- 
-
+<div class="panel">
+	<div class="panel-heading">
+		<h3>
+			Formulario
+		</h3>
+	</div>
+	<div class="panel-body">
+		<form action="" method="GET">
+			<label for="">
+				Ingresa tu nombre: <br>
+				<input type="text">
+			</label>
+			<br>
+			<br>
+			<label for="">
+				Copia este código: <br>
+				<input type="text">
+			</label>
+			<br>
+			<br>
+			<label for="">
+				Aquí: <br>
+				<input type="text">
+			</label>
+			<br><br>
+			<button>Enviar</button>
+		</form>
+	</div>
+</div>
 <?php require '../elements/footer.php' ?>
