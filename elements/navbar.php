@@ -3,7 +3,7 @@
 		<ul>
 			<li>
 				<a 
-					class="<?php if($_SERVER['REQUEST_URI'] == "/"): ?>active<?php endif ?>" 
+					class="<?php if($p[1] == ""): ?>active<?php endif ?>" 
 					href="/"
 				>
 					Inicio
@@ -11,7 +11,7 @@
 			</li>
 			<li>
 				<a 
-					class="<?php if($_SERVER['REQUEST_URI'] == "/vueltas"): ?>active<?php endif ?>" 
+					class="<?php if($p[1] == "vueltas"): ?>active<?php endif ?>" 
 					href="/vueltas"
 				>
 					Vueltas
@@ -19,7 +19,7 @@
 			</li>
 			<li>
 				<a 
-					class="<?php if($_SERVER['REQUEST_URI'] == "/formulario"): ?>active<?php endif ?>" 
+					class="<?php if($p[1] == "formulario"): ?>active<?php endif ?>" 
 					href="/formulario"
 				>
 					Formulario
@@ -27,7 +27,7 @@
 			</li>
 			<li>
 				<a 
-					class="<?php if($_SERVER['REQUEST_URI'] == "/tienda"): ?>active<?php endif ?>" 
+					class="<?php if($p[1] == "tienda"): ?>active<?php endif ?>" 
 					href="/tienda"
 				>
 					Tienda
@@ -35,22 +35,22 @@
 			</li>
 			<li>
 				<a 
-					class="<?php if($_SERVER['REQUEST_URI'] == "/admin"): ?>active<?php endif ?>" 
+					class="<?php if($p[1] == "admin"): ?>active<?php endif ?>" 
 					href="/admin"
 				>
 					Admin
 				</a>
 			</li>
-			<?php if($_SERVER['REQUEST_URI'] != "/pagina-escondida"){ echo "<!--";} ?>
+			<?php if($p[1] != "pagina-escondida"){ echo "<!--";} ?>
 			<li>
 				<a 
-					class="<?php if($_SERVER['REQUEST_URI'] == "/pagina-escondida"): ?>active<?php endif ?>" 
+					class="<?php if($p[1] == "pagina-escondida"): ?>active<?php endif ?>" 
 					href="/pagina-escondida"
 				>
 					Sorpresa
 				</a>
 			</li>
-			<?php if($_SERVER['REQUEST_URI'] != "/pagina-escondida"){ echo "-->";} ?>
+			<?php if($p[1] != "pagina-escondida"){ echo "-->";} ?>
 			
 		</ul>
 	</div>

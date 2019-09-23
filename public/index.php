@@ -4,7 +4,13 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$p = explode('/', $_SERVER['REQUEST_URI']);
+$url = parse_url($_SERVER['REQUEST_URI']);
+
+if (isset($url['query'])) {
+    parse_str($url['query'],$query);
+}
+
+$p = explode('/', $url['path']);
 
 switch ($p[1]) {
     case '' :
